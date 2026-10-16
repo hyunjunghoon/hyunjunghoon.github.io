@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="stylesheet" href="/dayframe/style.css">
+<title>Dayframe</title>
+</head>
+<body data-page="reply">
+  <main>
+    <div class="brand"><span class="dot" aria-hidden="true"></span>Dayframe</div>
+    <div id="content">
+      <section class="card" id="question-card">
+        <p class="label" id="question-label"></p>
+        <p class="question" id="question"></p>
+      </section>
+      <section class="card">
+        <p class="label" id="answered"></p>
+        <p class="answer-text" id="answer"></p>
+      </section>
+      <a id="open-app" class="btn btn-primary" href="#">Open in Dayframe</a>
+      <p class="small hint" id="open-hint"></p>
+    </div>
+    <section id="error" class="card error" hidden>
+      <h1 id="error-title"></h1>
+      <p id="error-body"></p>
+    </section>
+    <section class="promo">
+      <p id="promo-text">Use Dayframe to keep your own daily answers</p>
+      <a id="get-app" class="btn btn-secondary" href="https://play.google.com/store/apps/details?id=com.tallowbird.dayframe" rel="noopener">Get the app</a>
+    </section>
+  </main>
+  <script src="/dayframe/app.js"></script>
+</body>
+</html>
