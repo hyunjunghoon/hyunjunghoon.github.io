@@ -1,10 +1,13 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.tallowbird.dayframe",
       "sha256_cert_fingerprints": [
+        "03:7D:6A:C1:E1:7A:51:5E:32:22:93:B9:FD:F7:6D:0F:64:12:BB:4F:CC:6E:D2:7C:6A:28:90:C2:E5:74:E4:C4",
         "41:6B:5D:A9:71:34:F5:E9:33:0A:E2:72:8D:09:AC:28:52:3B:86:09:18:D4:45:66:F8:D6:0B:70:1D:36:B7:6E"
       ]
     }

@@ -8,6 +8,7 @@ Static GitHub Pages site (no build, `.nojekyll`).
   - All data is in the URL fragment (after `#`), so it is never sent to the server. Payload format: see
     `dayframe/app.js` (same as `util/AskLinks.kt` in the app).
 - `.well-known/assetlinks.json` — Android App Links verification for `com.tallowbird.dayframe`
+  (app signing key SHA-256 added 2026-11-08, upload key kept)
 
 ## TODO when Play App Signing is on
 
