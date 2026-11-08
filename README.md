@@ -1,6 +1,7 @@
 # hyunjunghoon.github.io
 
-Static GitHub Pages site (no build, `.nojekyll`).
+Static GitHub Pages site (no build, `.nojekyll`). This is the Play developer website: `index.html` lists the
+Tallowbird apps (name, the store short description, Play link).
 
 - `sizescan/` — SizeScan privacy policy
 - `dayframe/` — Dayframe "Ask someone" fallback pages
