@@ -160,3 +160,22 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: 
 .footer-links a { color: var(--muted); margin: 0 8px; }
 .brand a { color: inherit; text-decoration: none; }
 .doc .sub { margin-top: 16px; }
+
+/* Question list pages (/dayframe/questions/…) */
+main.wide { max-width: 40rem; }
+main.wide .brand { justify-content: space-between; }
+main.wide .brand .home { display: flex; align-items: center; gap: 8px; color: var(--ink); text-decoration: none; }
+main.wide .brand .lang { font-weight: 400; font-size: 0.875rem; color: var(--muted); }
+main.wide h2 { font-family: var(--serif); font-size: 1.375rem; line-height: 1.3; margin: 32px 0 8px; }
+main.wide .card { margin: 20px 0; }
+main.wide .card ul { margin: 6px 0 0; padding-left: 1.2rem; }
+main.wide .card li { margin-bottom: 6px; }
+.toc { font-size: 0.875rem; line-height: 1.9; color: var(--muted); }
+.toc a { color: var(--ink); text-underline-offset: 2px; }
+.month h3 { font-family: var(--serif); font-size: 1.125rem; margin: 28px 0 6px; padding-top: 12px; border-top: 1px solid var(--line); }
+.month ol { margin: 0; padding-left: 2.4rem; }
+.month li { padding: 5px 0; }
+.month li::marker { color: var(--muted); font-size: 0.8125rem; }
+.age { display: inline-block; margin-left: 6px; padding: 0 7px; border-radius: 10px; background: var(--soft); color: var(--muted); font-size: 0.75rem; line-height: 1.6; vertical-align: 1px; white-space: nowrap; }
+.cta .btn { margin-top: 10px; }
+main.wide:lang(ko) { word-break: keep-all; overflow-wrap: anywhere; }

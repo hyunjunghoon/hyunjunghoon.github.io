@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /dayframe/a/
+Disallow: /dayframe/r/
+
+Sitemap: https://hyunjunghoon.github.io/sitemap.xml

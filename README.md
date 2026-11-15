@@ -8,6 +8,10 @@ Tallowbird apps (name, the store short description, Play link).
   - `dayframe/a/#<payload>` question page, `dayframe/r/#<payload>` reply page, `dayframe/` landing
   - All data is in the URL fragment (after `#`), so it is never sent to the server. Payload format: see
     `dayframe/app.js` (same as `util/AskLinks.kt` in the app).
+- `dayframe/questions/` — question-list pages built from the app's packs (kids, me × en, ko), each with Play links
+  carrying `referrer=utm_source=hyunjunghoon.github.io&utm_campaign=questions_<pack>_<lang>_<mid|end>`
+  (Play Console → store analysis shows these). Generator: Dayframe repo `docs/web/gen_questions.py`.
+- `sitemap.xml`, `robots.txt` — for Search Console
 - `.well-known/assetlinks.json` — Android App Links verification for `com.tallowbird.dayframe`
   (app signing key SHA-256 added 2026-11-08, upload key kept)
 
